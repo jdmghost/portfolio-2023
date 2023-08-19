@@ -1,0 +1,19 @@
+@import "1-variables";
+
+body {
+    background-color: $color-void;
+    color: $color-paper;
+}
+
+.header {
+    border-color: #1F312E;
+
+    .header__logo svg path {
+        fill: $color-sage;
+    }
+}
+
+.footer a,
+.site-nav > li a {
+    color: $color-blush;
+}

@@ -1,0 +1,14 @@
+@import "1-variables";
+
+body {
+    background-color: $color-coffee;
+    color: $color-void;
+}
+
+.header {
+    border-color: #80756E;
+
+    .header__logo svg path {
+        fill: $color-forest;
+    }
+}

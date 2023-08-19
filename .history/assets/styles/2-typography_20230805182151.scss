@@ -1,0 +1,27 @@
+body {
+    font-family: $font-apfel;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.h1 {
+    font-family: $font-sinistre;
+    font-size: 3.25rem;
+    line-height: 1.2;
+}
+
+.eyebrow {
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}

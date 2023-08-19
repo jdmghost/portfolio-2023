@@ -1,0 +1,91 @@
+@import "1-variables";
+
+.header {
+    align-items: end;
+    border-top: 1px solid #80756E;
+    border-bottom: 1px solid #80756E;
+    padding: 1.25rem 0;
+    margin-top: 1rem;
+    
+    .header__logo img {
+        max-width: 140px;
+        height: auto;
+    }
+
+    .header__nav {
+        justify-self: end;
+    }
+}
+
+/**
+ * Desktop Site Nav 
+ */
+@media screen and (min-width: 800px) {
+    #siteNavToggle,
+    .site-nav__expand-toggle {
+        display: none;
+    }
+
+    .site-nav {
+        list-style: none;
+        display: grid; 
+        grid-auto-flow: column; 
+        grid-auto-columns: auto; 
+        grid-template-rows: 1fr; 
+        gap: 0px 30px; 
+        margin: 0;
+        padding: 0;
+
+        > li {
+            display: inline-block;
+        }
+
+        /* subnavs */
+        >li[aria-haspopup=true] {
+            position: relative;
+
+            .site-nav__sub-nav {
+                display: none;
+                position: absolute;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            &:hover,
+            &:focus-within {
+                > .site-nav__sub-nav {
+                    display: block;
+                }
+            }
+        }
+
+
+    }
+}
+
+/**
+ * Mobile Site Nav 
+ */
+@media screen and (max-width: 800px) {
+    .site-nav {
+        list-style: none;
+        display: none; 
+
+        &.site-nav--open {
+            display: block;
+        }
+
+        > li {
+            display: block;
+        }
+
+        .site-nav__sub-nav {
+            display: none;
+
+            &.site-nav__sub-nav--open {
+                display: block;
+            }
+        }
+    }
+}

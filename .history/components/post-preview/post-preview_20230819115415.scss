@@ -1,0 +1,47 @@
+@import '../../assets/styles/1-variables.scss';
+
+.post-preview {
+    margin-bottom: 3rem; 
+    
+    @media screen and (min-width: 50rem) {
+        width: calc(50% - 4rem);
+        margin-bottom: 0;
+    }
+    .post-preview__image {
+        border: 0.625rem solid $color-void;
+        background-color: $color-paper;
+        padding: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (max-width: 50rem) {
+            padding: 1.5rem;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 0.25rem solid $color-coffee;
+        }
+    }
+
+    .post-preview__content {
+        background-color: $color-paper;
+        padding: 0.8rem;
+        max-width: 23.5rem;
+        margin: 1rem auto;
+
+        h2, 
+        p {
+            margin: 0;
+            padding: 0.15rem;
+            font-size: 1rem;
+            color: $color-void;
+        }
+        
+        a {
+            color: $color-berry;
+        }
+    }
+}

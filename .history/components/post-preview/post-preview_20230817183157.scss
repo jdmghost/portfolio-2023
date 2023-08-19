@@ -1,0 +1,9 @@
+@import '../../assets/styles/1-variables.scss';
+
+.post-preview {
+    &__image {
+        border: 0.625rem solid $color-void;
+        background-color: $color-paper;
+        padding: 2.5rem;
+    }
+}

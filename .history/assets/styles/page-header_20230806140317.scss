@@ -1,0 +1,25 @@
+@import "1-variables";
+
+.page-header {
+    .page-header__deco {
+        font-family: $font-sinistre;
+        font-size: 16rem;
+        position: relative;
+
+        span {
+            position: absolute;
+        }
+        
+        span:first-child {
+            color: $color-forest;
+            left: 0;
+            top: 0;
+        }
+
+        span:last-child {
+            color: $color-berry;
+            left: -10px;
+            top: -10px;
+        }
+    }
+}

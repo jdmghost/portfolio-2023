@@ -1,0 +1,111 @@
+@import "1-variables";
+
+.header {
+    align-items: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    
+    .header__logo img {
+        max-width: 140px;
+        height: auto;
+    }
+
+    .header__nav {
+        justify-self: end;
+    }
+}
+
+/**
+ * Desktop Site Nav 
+ */
+@media screen and (min-width: 50rem) {
+    #siteNavToggle,
+    .site-nav__expand-toggle {
+        display: none;
+    }
+
+    .header {
+        padding: 1.25rem 0;
+        padding-left: $column-gap + px;
+        padding-right: $column-gap + px;
+        margin-top: 1rem;
+    }
+
+    .site-nav {
+        list-style: none;
+        display: grid; 
+        grid-auto-flow: column; 
+        grid-auto-columns: auto; 
+        grid-template-rows: 1fr; 
+        gap: 0px 3.125rem; 
+        margin: 0;
+        padding: 0;
+
+        > li {
+            display: inline-block;
+
+            a {
+                position: relative;
+                font-size: 1.25rem;
+                text-decoration: none;
+
+                &[aria-current="page"]:before {
+                    content: '';
+                    background-image: url('../images/page-marker.svg');
+                    position: absolute;
+                    height: 6.4375rem;
+                    width: 1.1875rem;
+                    top: -2.5rem;
+                    left: calc(50% - 0.5625rem);
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}
+
+/**
+ * Mobile Site Nav 
+ */
+@media screen and (max-width: 50rem) {
+    #siteNavToggle {
+        background: transparent;
+        border: 1px solid $color-berry;
+        border-radius: 100%;
+        padding: 0.75rem 1rem 0.65rem;
+    }
+
+    .header {
+        padding: 0.65rem 0;
+        padding-left: $margin-s + px;
+        padding-right: $margin-s + px;
+        margin-top: 0;
+        position: relative;
+    }
+
+    .site-nav {
+        list-style: none;
+        display: none; 
+
+        position: absolute;
+        top: 4.25rem;
+        left: 0;
+        background-color: $color-forest;
+        color: $color-paper;
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+
+        &.site-nav--open {
+            display: block;
+        }
+
+        > li {
+            display: block;
+
+            a {
+                background-color: transparent;
+            }
+        }
+    }
+}

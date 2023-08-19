@@ -1,0 +1,45 @@
+/* ~~~~~~~~~~~~~~~~~~~~~ layout.scss */
+$column-count: 12; 
+$column-count-m: 9; 
+$column-count-s: 4; 
+$margin: 50;
+$margin-m: 40;
+$margin-s: 20;
+$column-gap: 50;
+
+/* ~~~~~~~~~~~~~~~~~~~~~ theme colors */
+$color-berry: #2F0325;
+$color-blush: #EFD6CD;
+$color-coffee: #ADA199;
+$color-forest: #022721;
+$color-paper: #E8DFDA;
+$color-sage: #7B9896;
+$color-void: #011310;
+
+/* ~~~~~~~~~~~~~~~~~~~~~ other */
+$easing: cubic-bezier(0.83, 0, 0.17, 1);
+
+/* ~~~~~~~~~~~~~~~~~~~~~ typography */
+@font-face {
+    font-family: "sinistre";
+    src: url("../fonts/Sinistre-StCaroline.woff2") format("woff2"),
+         url("../fonts/Sinistre-StCaroline.woff") format("woff");
+}
+
+@font-face {
+    font-family: "apfel";
+    src: url("../fonts/ApfelGrotezk-regular.woff2") format("woff2"),
+         url("../fonts/ApfelGrotezk-regular.woff") format("woff");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "apfel";
+    src: url("../fonts/ApfelGrotezk-fett.woff2") format("woff2"),
+         url("../fonts/ApfelGrotezk-fett.woff") format("woff");
+    font-style: bold;
+}
+
+
+$font-sinistre: "sinistre", serif;
+$font-apfel: "apfel", sans-serif;

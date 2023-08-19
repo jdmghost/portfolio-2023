@@ -1,0 +1,30 @@
+@import '../../assets/styles/1-variables.scss';
+
+.post-preview {
+    .post-preview__image {
+        border: 0.625rem solid $color-void;
+        background-color: $color-paper;
+        padding: 2.5rem;
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 4px solid $color-coffee;
+        }
+    }
+
+    .post-preview__content {
+        background-color: $color-paper;
+        padding: 1.5rem;
+        padding: 0.8rem;
+        max-width: 23.5rem;
+        margin: 1rem auto;
+
+        h2, 
+        p {
+            margin: 0;
+            padding: 0.15rem;
+            font-size: 1rem;
+        }
+    }
+}
