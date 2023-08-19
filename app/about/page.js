@@ -22,7 +22,7 @@ function About() {
                         Aside from all the tech, I enjoy gaming, repair and restoration projects, and trying new things. 
                     </p>
                     <h2>
-                        Articles I've written or co-wrote
+                        Articles I&apos;ve written or co-wrote
                     </h2>
                     <ul>
                         <li>
