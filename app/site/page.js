@@ -18,7 +18,7 @@ function AboutSite() {
                         Accessibility
                     </h2>
                     <p>
-                        The website is in its first iteration, and is currently undergoing testing and upgrades to meet or exceed WCAG version 2.2 Level AA accessibility standards. Please email me at hello@nicky.dev with any accessibility concerns; It's my responsibility as a good internet neighbour to fix these as soon as possible.
+                        The website is in its first iteration, and is currently undergoing testing and upgrades to meet or exceed WCAG version 2.2 Level AA accessibility standards. Please email me at hello@nicky.dev with any accessibility concerns; It&apos;s my responsibility as a good internet neighbour to fix these as soon as possible.
                     </p>
                 </div>
             </section>
