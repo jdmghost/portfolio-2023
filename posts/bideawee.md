@@ -10,8 +10,13 @@ site_link: https://www.bideawee.org/
 summary: I designed and developed Bideawee’s website to follow their new brand identity.
 ---
 
-The website received an Honourable Mention for Awwwards, as well as Mobile Excellence.
+## Design
+Bideawee went through a major rebrand, but kept their signature blue and yellow. The two colours posed an accessibility challenge. 
 
-After designing their new website according to their recent rebrand, I developed the rescue shelter a highly customized WordPress website with ACF. Integrating their new CRM was a fun challenge for this project to create a highly customized Adopt page, with automatically generating unique pet pages.
+## Development 
+The site is mostly running on WordPress, which was highly customoized with ACF. Their adopt pages run through a separate CRM and had to be called in using their API. 
 
-You can read the full case study (published by Manoverboard) to learn more about the process, or visit the site.
+The site features a custom scrolling experience, and subtle animations using JavaScript and GSAP.
+
+## Awards
+The website received an [Awwards Honourable Mention](https://www.awwwards.com/sites/bideawee#color-typography).
