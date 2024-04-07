@@ -1,0 +1,25 @@
+paths:
+  uploads: public/images
+  dam_uploads: ''
+  static: public
+  dam_static: ''
+  collections: ''
+  data: _data
+  layouts: _layouts
+collections_config:
+  posts:
+    path: posts
+    output: false
+    filter: strict
+    name: Posts
+    description: ''
+    icon: notes
+    _editables:
+    _inputs:
+    _select_data:
+    _structures:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+timezone: Etc/UTC
