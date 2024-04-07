@@ -1,0 +1,9 @@
+{
+  "/page": "/",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/privacy/page": "/privacy",
+  "/portfolio/page": "/portfolio",
+  "/site/page": "/site",
+  "/posts/[slug]/page": "/posts/[slug]"
+}
