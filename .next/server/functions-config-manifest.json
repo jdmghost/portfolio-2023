@@ -1,6 +1,1 @@
-{
-  "version": 1,
-  "functions": {
-    "/posts/[slug]": {}
-  }
-}
+{"version":1,"functions":{"/posts/[slug]":{}}}

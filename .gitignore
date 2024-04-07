@@ -8,9 +8,6 @@
 # testing
 /coverage
 
-# next.js
-/out/
-
 # misc
 .DS_Store
 *.pem
