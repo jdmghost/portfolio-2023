@@ -13,7 +13,7 @@ function Contact() {
                         Freelance
                     </h2>
                     <p>
-                        I am available for freelance projects starting 2024. I love to collaborate with web designers or branding specialists to create unique digital identities. Get intouch via email (hello@nicky.dev), with the subject line &quot;Project&quot;.
+                        I am available for freelance projects. I love to collaborate with web designers or branding specialists to create unique digital identities. Get intouch via email (hello@nicky.dev), with the subject line &quot;Project&quot;.
                     </p>
                     <h2>
                         Other Inquirires

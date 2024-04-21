@@ -15,11 +15,6 @@ function SiteNav() {
                 </Link>
             </li>
             <li>
-                <Link href="/portfolio" aria-current={pathname == "/portfolio" ? "page" : "false"}>
-                    Portfolio
-                </Link>
-            </li>
-            <li>
                 <Link href="/contact" aria-current={pathname == "/contact" ? "page" : "false"}>
                     Contact
                 </Link>
