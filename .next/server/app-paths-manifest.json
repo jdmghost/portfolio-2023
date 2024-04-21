@@ -1,10 +1,10 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/portfolio/page": "app/portfolio/page.js",
   "/about/page": "app/about/page.js",
-  "/privacy/page": "app/privacy/page.js",
   "/page": "app/page.js",
+  "/portfolio/page": "app/portfolio/page.js",
+  "/privacy/page": "app/privacy/page.js",
   "/site/page": "app/site/page.js",
+  "/contact/page": "app/contact/page.js",
   "/posts/[slug]/page": "app/posts/[slug]/page.js"
 }
