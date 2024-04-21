@@ -3,6 +3,10 @@ import Link from "next/link";
 
 import PageHeader from '../../components/page-header/page-header.js';
 
+export const metadata = {
+    title: 'Contact | Nicky Wolfe',
+}
+
 function Contact() {
     return (
         <main className="contact">

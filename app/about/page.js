@@ -3,6 +3,10 @@ import Link from "next/link";
 
 import PageHeader from '../../components/page-header/page-header.js';
 
+export const metadata = {
+    title: 'About | Nicky Wolfe',
+}
+
 function About() {
     return (
         <main className="about">
