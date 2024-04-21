@@ -3,8 +3,8 @@
   "/contact/page": "app/contact/page.js",
   "/about/page": "app/about/page.js",
   "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
   "/portfolio/page": "app/portfolio/page.js",
   "/site/page": "app/site/page.js",
-  "/privacy/page": "app/privacy/page.js",
   "/posts/[slug]/page": "app/posts/[slug]/page.js"
 }
