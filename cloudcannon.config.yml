@@ -1,8 +1,0 @@
-output: out
-paths:
-  uploads: public/images
-  static: public
-  collections: posts
-  data: ''
-  layouts:
-timezone: Etc/UTC
