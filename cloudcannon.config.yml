@@ -1,8 +1,8 @@
 output: out
 paths:
-  uploads: uploads
-  static: ''
-  collections: ''
+  uploads: public/images
+  static: public
+  collections: posts
   data: ''
   layouts:
 timezone: Etc/UTC
