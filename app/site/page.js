@@ -2,6 +2,10 @@ import React from 'react';
 
 import PageHeader from '../../components/page-header/page-header.js';
 
+export const metadata = {
+    title: 'About this website | Nicky Wolfe',
+}
+
 function AboutSite() {
     return (
         <main>
