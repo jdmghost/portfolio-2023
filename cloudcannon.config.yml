@@ -1,0 +1,8 @@
+output: out
+paths:
+  uploads: uploads
+  static: ''
+  collections: ''
+  data: ''
+  layouts:
+timezone: Etc/UTC
